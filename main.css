@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos Gerais */
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    background-color: #192a56;
+    padding-top: 16px;
+    color: #fff;
+}
+
+button {
+    display: block;
+    width: 70%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+} 
+
+.container-flex {
+    display: flex;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+
+/* Estilos Header */
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 16px 0 0;
+    margin-bottom: 56px;
+}
+
+.menu > li {
+    float: left;
+    list-style: none;
+    padding: 16px 8px;
+    cursor: pointer;
+    margin: auto 8px;
+}
+
+/* Estilos Carrossel */
+#carousel-imagens {
+    margin-bottom: 56px;
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 100%;
+    width: 70%;
+}
+
+/* Estilos sobre a loja */
+#sobre-a-loja {
+    margin-bottom: 56px;
+}
+
+#sobre-a-loja img {
+    max-width: 35%;
+    margin-right: 24px;
+}
+
+#sobre-a-loja h2 {
+    margin-bottom: 32px;
+    border-bottom: 5px solid #000;
+}
+
+/* Estilos produtos */
+.lista-produtos {
+    display: grid;
+    grid-template-columns: repeat(4);
+}
+
+.produtos li {
+    list-style: none;
+    max-width: 100%;
+    margin-bottom: 56px;
+}
+
+.produto img {
+    width: 250px;
+    height: 250px;
+}
+
+.lista-produtos h3 {
+    margin: 16px 0;
+}
+
+.lista-produtos .price {
+    margin: 16px 0;
+    display: block;
+}
+
+/* Estilos Entre em Contato*/
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 360px;
+    margin-bottom: 56px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+form button {
+    max-width: 120px;
+}
+
+/* Estilos Footer*/
+footer {
+    max-width: 100%;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+    }
+    
+    .lista-produtos {
+        grid-template-columns: repeat(2, 49%);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
+}

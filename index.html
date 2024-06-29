@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MA Shoes</title>
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>MA Shoes</h1>
+            <ul class="menu">
+                <li>
+                    Sobre a Loja
+                </li>
+                <li>
+                    Produtos
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="carousel-imagens">
+            <img src="./img/1.png">
+            <img src="./img/2.png">
+            <img src="./img/3.png">
+        </div>
+
+        <section id="sobre-a-loja">
+            <div class="container-flex">
+                <img src="./img/loja.jpg">
+                <div>
+                <h2>Sobre a MA Shoes</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cumque aliquid, quia rerum quod minus eligendi excepturi ullam iusto fugit pariatur assumenda aperiam modi ad quam autem inventore est perspiciatis.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cumque aliquid, quia rerum quod minus eligendi excepturi ullam iusto fugit pariatur assumenda aperiam modi ad quam autem inventore est perspiciatis.
+                        </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Produtos</h2>
+            <div class="lista-produtos">
+                <ul class="container-flex produtos">
+                    <li class="produto">
+                        <img src="./img/adidas.jpg">
+                        <h3>Tênis Adidas</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rerum cumque.
+                        </p>
+                        <div class="price">
+                            <strong>R$ 279,00</strong>
+                        </div>
+                        <button type="button">Colocar no carrinho</button>
+                    </li>
+                    <li class="produto">
+                        <img src="./img/mizuno.jpg">
+                        <h3>Tênis Mizuno</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rerum cumque.
+                        </p>
+                        <div class="price">
+                            <strong>R$ 549,00</strong>
+                        </div>
+                        <button type="button">Colocar no carrinho</button>
+                    </li>
+                    <li class="produto">
+                        <img src="./img/nike.jpg">
+                        <h3>Tênis Nike</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rerum cumque.
+                        </p>
+                        <div class="price">
+                            <strong>R$ 749,00</strong>
+                        </div>
+                        <button type="button">Colocar no carrinho</button>
+                    </li>
+                    <li class="produto">
+                        <img src="./img/puma.jpg">
+                        <h3>Tênis Puma</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rerum cumque.
+                        </p>
+                        <div class="price">
+                            <strong>R$ 850,00</strong>
+                        </div>
+                        <button type="button">Colocar no carrinho</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <h2>Entre em contato</h2>
+                <form>
+                    <div class="form-campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome">
+                    </div>
+                    <div class="form-campo">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </div>
+                    <div class="form-campo">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-campo">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container container-flex">
+                <p>
+                2024 &copy; MA Shoes - Todos os direitos reservados
+                </p>
+                <ul class="container-flex">
+                    <li>
+                        <a href="#">
+                            <img src="./img/icons8-facebook-novo-64.png" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/icons8-instagram-logo-64.png" alt="instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/icons8-reproduzir-youtube-64.png" alt="youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+        </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./JS/jquery.mask.min.js"></script>
+    <script src="./JS/jquery.validate.min.js"></script>
+    <script src="./JS/messages_pt_BR.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
